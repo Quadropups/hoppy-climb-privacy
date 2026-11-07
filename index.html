@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- The privacy policy for the Android app (its URL goes in the Play Console). Describes the app as released: AdMob
-     ads, Google Play purchases, an optional Google account link. Keep it in step with src/services/ when they change. -->
+     ads, Firebase Analytics, Google Play purchases, an optional Google account link. Keep it in step with src/services/ when they change. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -29,12 +29,13 @@
 <main>
 <div class="card">
 <h1>Hoppy Climb Privacy Policy</h1>
-<p class="date">Effective October 25, 2026</p>
+<p class="date">Effective November 7, 2026</p>
 
 <div class="summary">
 <p><strong>In short:</strong> your game progress stays on your phone. We don't run servers and don't collect your
-personal information ourselves. The game shows ads through Google AdMob, which collects device information as
-described below, and purchases go through Google Play.</p>
+personal information ourselves. The game shows ads through Google AdMob and measures how the game is played with
+Google Analytics for Firebase; both collect device information as described below. Purchases go through Google
+Play.</p>
 </div>
 
 <h2>Who we are</h2>
@@ -63,6 +64,21 @@ your consent before personalized ads are shown.</p>
 (Settings → Google → Ads, or Settings → Privacy → Ads, depending on your device). The "Remove Ads" purchase turns
 off the ads between runs.</p>
 
+<h2>Game statistics (Google Analytics for Firebase)</h2>
+<p>To understand how the game is played and make it better, the game uses Google Analytics for Firebase. It records
+game events, such as starting and finishing a run, your score, what ended a run, gems earned and spent, rewarded ads
+watched, puzzle pieces and characters unlocked, and which screens you open. Along with these, Firebase collects:</p>
+<ul>
+  <li>an app instance ID (a random identifier for this installation of the game) and your device's advertising ID;</li>
+  <li>device and app information (model, operating system, language, app version) and approximate location (country
+    or region);</li>
+  <li>when and for how long the game is used.</li>
+</ul>
+<p>We see this information only as statistics in the Firebase console, not to identify you, and we don't add your
+name, email or anything you type. Google processes it under the <a href="https://policies.google.com/privacy">Google
+Privacy Policy</a>. In the European Economic Area, the UK and Switzerland, the consent you give or refuse for ads
+also applies here: if you refuse, Firebase only counts events without storing identifiers.</p>
+
 <h2>Purchases (Google Play)</h2>
 <p>In-app purchases (such as Remove Ads and gem packs) are processed by Google Play. We never see your payment
 details. Google Play tells the game which items you have bought so they can be delivered and restored. Google's
@@ -75,7 +91,7 @@ game for this purpose. Your saved progress is stored by Google. You can unlink a
 If you don't link an account, nothing is sent.</p>
 
 <h2>Permissions</h2>
-<p>The game uses internet access (for ads, purchases and the optional account link) and vibration (for game
+<p>The game uses internet access (for ads, game statistics, purchases and the optional account link) and vibration (for game
 feedback, which you can turn off in settings). It does not access your camera, microphone, contacts, photos or
 precise location.</p>
 
@@ -90,6 +106,8 @@ remove it.</p>
     (Settings → Apps → Hoppy Climb → Storage → Clear data).</li>
   <li>Information collected by Google AdMob is kept and deleted under Google's policies. You can reset your
     advertising ID at any time.</li>
+  <li>Game statistics collected by Google Analytics for Firebase are kept for up to 14 months and then deleted.
+    Uninstalling the game stops any further collection.</li>
   <li>For any other request about your information, email
     <a href="mailto:felikonline@gmail.com">felikonline@gmail.com</a>.</li>
 </ul>
